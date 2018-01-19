@@ -1,0 +1,169 @@
+body {
+	padding-top: 0;
+  
+ background: #456;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.footer {
+	padding-top: 40px;
+	padding: bottom: 40px;
+	margin-top: 40px;
+	border-top: 1px solid #eee;
+  color: #FFFFF0;\
+  text-align: center;
+}
+
+.jumbotron_content {
+	text-align: center;
+  color: #FFFFF0;
+	background-color: transparent;
+}
+
+.jumbotron_content .btn {
+	padding: 14px 24px;
+	font-size: 21px;
+}
+.jumbotron_epics {
+
+
+ /* background-color: transparent;*/
+
+}
+.jumbotron_epics #epic-section {
+  text-align: center;
+}
+
+#create_epic {
+  background-color: white; 
+  text-align: center;
+  
+}
+
+#display_epic {
+  background-color: white;
+  
+}
+
+.epic-header {
+  background: #28d;
+  padding: 20px;
+  font-size: 1.4em;
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.epic-container {
+  background: #ebebeb;
+  padding: 12px;
+}
+
+/* Every row inside .epic-container is defined with p tags */
+.epic p {
+  padding: 12px;
+}
+
+.epic input {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  border-width: 1px;
+  border-style: solid;
+  padding: 16px;
+  outline: 0;
+  font-family: inherit;
+  font-size: 0.95em;
+}
+
+.epic input[type="text"]
+ {
+  background: #fff;
+  border-color: #bbb;
+  color: #555;
+}
+
+#checkbox {
+  display: inline-grid;
+}
+
+
+
+
+.epic input[type="submit"] {
+  background: #28d;
+  border-color: transparent;
+  color: #fff;
+  cursor: pointer;
+}
+
+.epic input[type="submit"]:hover {
+  background: #17c;
+}
+
+/* Buttons' focus effect */
+.epic input[type="submit"]:focus {
+  border-color: #05a;
+}
+
+#an-epic {
+  background: #BDB76B;
+  border-color: transparent;
+  border-radius: 0px;
+  height: 50px;
+  width: 400px;
+  color: #fff;
+  border-color: #05a;
+  margin-left: 40px;
+  margin-bottom: 10px;
+  -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+  
+}
+
+#an-epic p {
+  text-align: center;
+  padding-top: 7px;
+}
+#an-epic p: hover {
+  background: #17c;
+}
+
+.stories {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+#sprint_a {
+  background-color: white; 
+  text-align: center;
+  
+}
+
+
+.sprint_analysis {
+  background: transparent;
+  padding-top: 20px;
+}
+.sprint_analysis #sprint_time {
+  background: #BDB76B;
+  border-color: transparent;
+  border-radius: 0px;
+  height: 50px;
+  width: 200px;
+  color: #fff;
+  border-color: #05a;
+  margin-left: 150px;
+  margin-bottom: 10px;
+  padding-top: 15px;
+  font-size: 20px;
+   font-family: "Times New Roman", Times, serif;
+
+
+  -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+
+}
+
+
